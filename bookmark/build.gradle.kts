@@ -49,6 +49,8 @@ dependencies {
     implementation(libs.androidx.recyclerview)
     implementation(libs.glide)
 
+    debugImplementation(libs.leakcanary.android)
+
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)

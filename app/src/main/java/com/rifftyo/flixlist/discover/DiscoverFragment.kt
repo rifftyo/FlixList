@@ -74,4 +74,9 @@ class DiscoverFragment : Fragment() {
         intent.putExtra("movieId", movie.movieId)
         startActivity(intent)
     }
+
+    override fun onDestroyView() {
+        super.onDestroyView()
+        _binding = null
+    }
 }

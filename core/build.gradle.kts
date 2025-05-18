@@ -61,4 +61,9 @@ dependencies {
 
     implementation(libs.androidx.recyclerview)
     implementation(libs.glide)
+
+    implementation(libs.android.database.sqlcipher)
+    implementation(libs.androidx.sqlite.ktx)
+
+    debugImplementation(libs.leakcanary.android)
 }
